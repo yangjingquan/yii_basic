@@ -175,7 +175,7 @@
             </a>
             <ul class="submenu">
                 <li><a href="<?php echo yii\helpers\Url::to(['manage/managers']);?>">管理员列表</a></li>
-                <li><a href="<?php echo yii\helpers\Url::to(['manage/reg']);?>">加入新管理员</a></li>
+                <li><a href="<?php echo yii\helpers\Url::to(['manage/reg']);?>">添加管理员</a></li>
             </ul>
         </li>
         <li>
@@ -186,7 +186,7 @@
             </a>
             <ul class="submenu">
                 <li><a href="user-list.html">用户列表</a></li>
-                <li><a href="new-user.html">加入新用户</a></li>
+                <li><a href="new-user.html">添加新用户</a></li>
                 <li><a href="user-profile.html">用户信息</a></li>
             </ul>
         </li>

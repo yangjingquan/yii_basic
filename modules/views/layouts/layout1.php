@@ -156,7 +156,7 @@
                 <div class="arrow"></div>
                 <div class="arrow_border"></div>
             </div>
-            <a href="index.html">
+            <a href="<?php echo yii\helpers\Url::to(['default/index']);?>">
                 <i class="icon-home"></i>
                 <span>后台首页</span>
             </a>
@@ -166,6 +166,17 @@
                 <i class="icon-signal"></i>
                 <span>统计</span>
             </a>
+        </li>
+        <li>
+            <a class="dropdown-toggle" href="#">
+                <i class="icon-user"></i>
+                <span>管理员管理</span>
+                <i class="icon-chevron-down"></i>
+            </a>
+            <ul class="submenu">
+                <li><a href="<?php echo yii\helpers\Url::to(['manage/managers']);?>">管理员列表</a></li>
+                <li><a href="<?php echo yii\helpers\Url::to(['manage/reg']);?>">加入新管理员</a></li>
+            </ul>
         </li>
         <li>
             <a class="dropdown-toggle" href="#">
